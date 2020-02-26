@@ -19,6 +19,6 @@ int somatorio( int vetor[], int posicao) {
     if (posicao == 0) {
         return vetor[posicao];
     } else {
-        return vetor[posicao] + somatudo(vetor, (posicao-1));
+        return vetor[posicao] + somatorio(vetor, (posicao-1));
     }
 }
